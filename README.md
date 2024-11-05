@@ -66,6 +66,7 @@ spring.datasource.password=your_password
 
 ## Running the Application
 1.Navigate to the project directory (if not already there).
+
 2.Build the project using Maven:
 ```bash
 mvn clean install

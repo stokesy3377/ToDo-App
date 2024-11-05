@@ -27,10 +27,17 @@ The ToDo App is a web-based application developed using Spring Boot, designed to
 - **Database**: MySQL
 - **Build Tool**: Maven
 - **Dependencies**: 
-  - `spring-boot-starter-data-jpa`
-  - `spring-boot-starter-web`
-  - `javax.servlet-api`
-  - `jstl`
+  - `spring-boot-starter-data-jpa`: For JPA and Hibernate support
+  - `spring-boot-starter-web`: For building web applications, including RESTful services
+  - `javax.servlet-api` (v4.0.1): For Servlet API support
+  - `jakarta.servlet.jsp.jstl-api` (v2.0.0) & `jakarta.servlet.jsp.jstl` (v2.0.0): For JSP tag library support
+  - `taglibs-standard-impl` (v1.2.5): Provides JSTL standard tags implementation
+  - `spring-boot-devtools`: For development-time features like auto-reload (runtime scope)
+  - `mysql-connector-j`: JDBC driver for MySQL (runtime scope)
+  - `tomcat-embed-jasper`: For running JSP on an embedded Tomcat server
+  - `bootstrap` (v4.6.0): Web front-end framework for styling
+  - `jquery` (v1.9.1): JavaScript library for client-side scripting
+  - `spring-boot-starter-test`: For testing support
 
 ## Getting Started
 

@@ -44,3 +44,33 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/sprashantofficial/ToDo-App.git
+2.Navigate to the project directory:
+    ```bash
+   cd ToDo-App
+
+3.Configure the application.properties file with your MySQL database credentials. Set up your database and update the connection properties:
+  ```application.properties
+   spring.datasource.url=jdbc:mysql://localhost:3306/todo_app
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+  ```
+
+
+###Running the Application
+1.Navigate to the project directory (if not already there).
+2.Build the project using Maven:
+   ```bash
+      mvn clean install
+   ```
+3.Run the application:
+```bash
+mvn spring-boot:run
+```
+
+###Usage
+Open your web browser and navigate to http://localhost:8080.
+You will see the ToDo App interface where you can start managing your tasks.
+
+
+###Contributing
+Contributions are welcome! If you have suggestions or improvements, feel free to create a pull request or submit an issue.
